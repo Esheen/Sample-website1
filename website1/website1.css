@@ -12,6 +12,7 @@ ul, li {
 
 a {
 	text-decoration: none;
+	color: inherit;
 }
 
 #logo {
@@ -31,7 +32,7 @@ a {
 
 #header li {
 	float: left;;
-	margin-right: 20px;
+	margin-right: 35px;
 	font-size: 25px;
 	font-family: "Druk";
 	text-transform: uppercase;
@@ -51,28 +52,73 @@ a {
 	height: 80%;
 }
 
-#two .aboutbees {
+#two {
 	position: relative;
+	background-image: url(../website1/aboutbees.jpg);
 	width: 100%;
-}
-
-#right {
-	position: relative;
-	top: 800px;
-	right: 80px;
-	width: 400px;
-	height: 400px;
-	border: transparent;
+	height: 600px;
+	display: inline-block;
 
 }
 
-h1 {
+span {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%%;
+	margin-right:  -50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+
+}
+
+span h1 {
 	font-size: 50px;
 	margin: 0;
 	font-family: "Arial";
 }
 
-p {
+span p {
 	font-size: 20px;
 	font-family: "Arial";
 }
+
+.beesproduct {
+	padding: 10px;
+	font-family: "Arial";
+	font-size: 50px;
+}
+
+#table {
+	background-color: #FFD700;
+	display: inline-block;
+	width: 100%;
+}
+
+.th{
+	height: 50px;
+	padding-bottom: 30px;
+}
+
+table {
+	margin: auto;
+	margin-top: 100px;
+	width: 80%;
+	height: auto;
+	padding: 30px;
+	column-width: 200px;
+	text-align: center;
+	border-spacing: 5px;
+}
+
+th {
+	font-family: "Arial";
+	font-size: 30px;
+}
+
+.list img {
+	border-radius: 5px;
+	width: 150px;
+	height: 150px;
+}
+
